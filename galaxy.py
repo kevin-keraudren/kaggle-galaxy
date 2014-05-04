@@ -10,7 +10,7 @@ import math
 from scipy.stats.mstats import mquantiles, kurtosis, skew
 
 def get_data_folder():
-    return "data_"+str(N)+"_"+str(dsift_size)
+    return "model_folder"
 
 def get_fieldnames():
     return [ 'GalaxyID',
